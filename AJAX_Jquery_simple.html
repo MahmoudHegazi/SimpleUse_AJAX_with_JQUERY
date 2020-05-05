@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+/* in order to see it work run it here:
+
+https://www.w3schools.com/code/tryit.asp?filename=GEH9VRLFJVLM
+
+*/
+
+$(document).ready(function(){
+  $('button').click(function() {
+   $("#div1").load("demo_test.txt");
+ });
+});
+</script>
+</head>
+<body>
+
+
+<div id="div1"><h2>JQuery With AJAX</h2></div>
+<button>Get External Content</button>
+
+</body>
+</html>
